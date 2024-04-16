@@ -22,18 +22,21 @@ const Message = (props: MessagePropsType) => {
                         {props.message.message.time}
                     </div>
 
-
-                    <div className={s.text}>
-                        <div id={'hw1-name-' + props.message.id} className={s.name}>
-                            {props.message.user.name}
-                        </div>
-                        <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
+                    <div className={s.nameAndContent}>
+                        <div className={s.text}>
+                            <div id={'hw1-name-' + props.message.id} className={s.name}>
+                                {props.message.user.name}
+                            </div>
+                            <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
                             {props.message.message.text}
                         </pre>
+                        </div>
+                        <div className={s.angleMessage}/>
                     </div>
                 </div>
-
-
+                {/*<div className={s.timeContent}>*/}
+                {/*    {props.message.message.time}*/}
+                {/*</div>*/}
             </div>
         </div>
     )

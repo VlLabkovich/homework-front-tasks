@@ -23,28 +23,31 @@ const FriendMessage = (props: MessagePropsType) => {
                         {props.message.message.time}
                     </div>
 
-                    <div className={s.friendText}>
-                        <div
-                            id={'hw1-friend-name-' + props.message.id}
-                            className={s.friendName}
-                        >
-                            {props.message.user.name}
+                        <div className={s.nameAndContent}>
+                            <div className={s.friendText}>
+                                <div
+                                    id={'hw1-friend-name-' + props.message.id}
+                                    className={s.friendName}
+                                >
+                                    {props.message.user.name}
 
-                        </div>
-                        <pre
-                            id={'hw1-friend-text-' + props.message.id}
-                            className={s.friendMessageText}
-                        >
+                                </div>
+                                <pre
+                                    id={'hw1-friend-text-' + props.message.id}
+                                    className={s.friendMessageText}
+                                >
                         {props.message.message.text}
 
                     </pre>
-                    </div>
+                            </div>
+                            <div className={s.angleMessageFriend}/>
+                        </div>
                 </div>
 
             </div>
         </div>
 
-    )
+)
 }
 
 export default FriendMessage

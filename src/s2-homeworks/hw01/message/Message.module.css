@@ -1,7 +1,5 @@
 .message {
     display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
     margin: 50px 0 50px;
 }
 
@@ -11,24 +9,33 @@
 }
 
 .imageAndText img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+}
 
+.nameAndContent {
+    display: flex;
+    align-items: flex-end;
 }
 
 .text {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 530px;
-    height: min-content;
+    max-width: 530px;
+    min-width: 80%;
+    height: 100%;
     background-color: #0066CC;
-    border-radius: 10px;
-    margin-right: 15px;
+    border-radius: 10px 10px 0 10px;
 }
 
-.text ::after {
+.angleMessage {
+    display: flex;
+    justify-content: flex-end;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle at 20px 0, rgba(0, 0, 0, 0) 20px, rgb(0, 102, 204) 0);
 }
+
 
 .name {
     text-align: right;
@@ -42,12 +49,27 @@
 }
 
 .messageText {
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    white-space: pre-wrap;
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     padding: 10px;
 }
+/*.timeContent {*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    !*border: 2px solid #43d4e8;*!*/
+/*    padding: 10px 22px;*/
+/*    !*text-align: right;*!*/
+/*    font-family: Montserrat, sans-serif;*/
+/*    font-weight: 600;*/
+/*    font-size: 10px;*/
+/*    line-height: 12px;*/
+/*}*/
 
 .time {
     display: flex;

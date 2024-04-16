@@ -6,27 +6,34 @@
 
 .friendImageAndText {
     display: flex;
-
 }
 
 .friendImageAndText img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+}
 
+.nameAndContent {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
 }
 
 .friendText {
     display: flex;
     flex-direction: column;
-    width: 527px;
-    height: min-content;
+    max-width: 530px;
+    height: 100%;
     background-color: #F5F7FB;
-    border-radius: 10px;
-    margin-left: 15px;
+    border-radius: 10px 10px 10px 0;
 }
 
-.friendText:after {
-
+.angleMessageFriend {
+    display: flex;
+    justify-content: flex-end;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle at -0px -0px, rgba(0, 0, 0, 0) 20px, rgb(245, 247, 251) 0);
 }
 
 .friendName {
@@ -40,6 +47,7 @@
 
 .friendMessageText {
     font-family: Montserrat, sans-serif;
+    white-space: pre-wrap;
     font-weight: 400;
     font-size: 16px;
     color: #000000;
