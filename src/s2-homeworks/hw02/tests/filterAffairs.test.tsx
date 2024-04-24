@@ -16,16 +16,20 @@ beforeEach(() => {
 test('filter by all', () => {
     const newState = filterAffairs(initialState, 'all')
     expect(newState.length).toBe(5)
+    console.log(newState)
 })
 test('filter by high', () => {
     const newState = filterAffairs(initialState, 'high')
     expect(newState.length).toBe(2)
+    console.log(newState)
 })
 test('filter by middle', () => {
     const newState = filterAffairs(initialState, 'middle')
     expect(newState.length).toBe(1)
+    console.log(newState)
 })
 test('filter by low', () => {
     const newState = filterAffairs(initialState, 'low')
     expect(newState.length).toBe(2)
+    console.log(newState)
 })
