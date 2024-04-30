@@ -1,20 +1,33 @@
 .input:focus {
+    outline: none; /*убирает черную рамку инпута, когда он в фокусе*/
 }
 
 .input {
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
 }
 
 .superInput {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+    opacity: 50%;
 }
 
 .errorInput {
+    width: 372px;
+    height: 36px;
+    border: 1px solid red;
+    border-radius: 5px;
 }
 
-.errorInput:focus {
-}
+
 
 .error {
+    display: flex;
+    color: red;
 }
