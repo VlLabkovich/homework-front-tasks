@@ -11,7 +11,7 @@ const Message = (props: MessagePropsType) => {
     return (
 
         <div id={'hw1-message-' + props.message.id} className={s.message}>
-            <div className={s2.container}>
+            <div className={s2.hw1}>
                 <div className={s.imageAndText}>
 
                     <div id={'hw1-time-' + props.message.id} className={s.time}>
