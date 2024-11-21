@@ -3,6 +3,9 @@ import burgerIcon from './burger.svg'
 import s from './Header.module.css'
 import {useLocation} from 'react-router-dom'
 import {PATH} from '../Pages'
+import s3 from '../Container.module.css'
+
+
 
 type PropsType = {
     handleOpen: () => void
@@ -22,7 +25,7 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
                     ? 'Junior Plus'
                     : 'Error'
     return (
-        <>
+        <div>
             <div id={'hw5-header'} className={s.header}>
                 <img
                     src={burgerIcon}
@@ -33,6 +36,6 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
                 />
                 <h1>{pageName}</h1>
             </div>
-        </>
+        </div>
     )
 }
