@@ -3,6 +3,7 @@
     height: 24px;
     margin-top: 20px;
     margin-left: 70px;
+    cursor: pointer;
 }
 
 .header {
@@ -10,13 +11,8 @@
     justify-content: space-between;
     height: 60px;
     width: 100%;
-    /*margin-right: 70px;*/
-    /*border: 2px dashed red;*/
-    /*margin: 0 70px 50px 70px;*/
     margin-bottom: 47px;
-    /*box-shadow: 0 0 2px 0 rgba(29, 33, 38, 0.1);*/
     background: rgba(255, 255, 255, 1);
-    /*border: 2px solid red;*/
     background: #2d467c;
 }
 
