@@ -3,7 +3,7 @@
     height: 30px;
     padding: 5px 24px 5px 24px;
     border-radius: 3px;
-
+    cursor: pointer;
 }
 
 .disabled {
