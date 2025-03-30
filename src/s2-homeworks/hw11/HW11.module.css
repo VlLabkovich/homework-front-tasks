@@ -1,8 +1,17 @@
 .container {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .wrapper {
+    display: flex;
 }
 
 .number {
+    margin: 0 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
 }
