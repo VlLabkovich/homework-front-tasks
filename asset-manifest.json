@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/homework-front-tasks/static/css/main.0f110716.css",
-    "main.js": "/homework-front-tasks/static/js/main.f6b13785.js",
+    "main.css": "/homework-front-tasks/static/css/main.1475f716.css",
+    "main.js": "/homework-front-tasks/static/js/main.767b3d7a.js",
     "static/js/787.6679c7e1.chunk.js": "/homework-front-tasks/static/js/787.6679c7e1.chunk.js",
     "static/media/avatar.png": "/homework-front-tasks/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/200.svg": "/homework-front-tasks/static/media/200.2b4de1542921864a6ecb8c3301ea4670.svg",
+    "static/media/error.svg": "/homework-front-tasks/static/media/error.9a99652a785b87f2f448e23e5da3045d.svg",
+    "static/media/500.svg": "/homework-front-tasks/static/media/500.65355d1617c6a93fc93572680052f0b7.svg",
+    "static/media/400.svg": "/homework-front-tasks/static/media/400.4e46e304dcfdcae89fcfb902d8863816.svg",
     "static/media/404.svg": "/homework-front-tasks/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
     "static/media/closeOutline.svg": "/homework-front-tasks/static/media/closeOutline.91a6693133923612a0702421ab3e9923.svg",
     "static/media/editIcon.svg": "/homework-front-tasks/static/media/editIcon.11c8e1c42f9a4eae81897d68e091eb42.svg",
     "static/media/checked.svg": "/homework-front-tasks/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/homework-front-tasks/index.html",
     "static/media/burger.svg": "/homework-front-tasks/static/media/burger.e3c5f7145ddc4800d6bdbea714d4de44.svg",
-    "main.0f110716.css.map": "/homework-front-tasks/static/css/main.0f110716.css.map",
-    "main.f6b13785.js.map": "/homework-front-tasks/static/js/main.f6b13785.js.map",
+    "main.1475f716.css.map": "/homework-front-tasks/static/css/main.1475f716.css.map",
+    "main.767b3d7a.js.map": "/homework-front-tasks/static/js/main.767b3d7a.js.map",
     "787.6679c7e1.chunk.js.map": "/homework-front-tasks/static/js/787.6679c7e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f110716.css",
-    "static/js/main.f6b13785.js"
+    "static/css/main.1475f716.css",
+    "static/js/main.767b3d7a.js"
   ]
 }
