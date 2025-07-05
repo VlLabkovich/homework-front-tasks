@@ -1,22 +1,48 @@
 .buttonsContainer {
+    display: flex;
+    gap: 24px;
 }
 
 .responseContainer {
+    display: flex;
+    max-width: 1022px;
+    /*border: 1px solid #cc0e0e;*/
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 150px;
+    gap: 87px;
+
 }
 
 .imageContainer {
+    /*border: 1px solid rgba(49, 189, 54, 0.8);*/
+
 }
 
 .image {
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.textContainer{
+.textContainer {
+    /*border: 1px solid #e3c25f;*/
+
 }
 
 .code {
+    display: flex;
+    margin-bottom: 13px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100%;
 }
 
 .text {
+    font-size: 16px;
+    line-height: 100%;
 }
+
 .info {
+
 }
