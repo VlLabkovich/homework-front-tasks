@@ -3,6 +3,7 @@
 }
 
 .hw {
+    display: inline-block;
     margin: 50px 70px;
 }
 

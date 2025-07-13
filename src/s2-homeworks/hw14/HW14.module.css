@@ -3,5 +3,24 @@
 }
 
 .loading {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(77, 77, 77, 1);
+    line-height: 100%;
+    display: flex;
+    justify-content: end;
+}
 
+.superDebouncedInput {
+    padding-left: 12px;
+    opacity: 100%;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 3px;
+    border: 2px solid rgba(217, 217, 217, 1);
+
+
+}
+
+.superDebouncedInput:focus {
+    border: 2px solid rgba(0, 102, 204, 1)
 }
