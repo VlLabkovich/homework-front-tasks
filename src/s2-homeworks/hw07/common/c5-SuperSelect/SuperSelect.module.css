@@ -1,11 +1,10 @@
 .select {
-    width: 180px;
     border-radius: 2px;
-    border: 1px solid rgba(194, 194, 194, 1);
-    padding: 2px 0 2px 10px;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
+    margin: 0 6px 0 10px;
+    /*padding: 4px 0 4px 0;*/
+    /*border: 3px dotted rgb(204, 14, 14)*/
+    border: 1px solid rgba(236, 235, 235, 1);
 }
 
 .select:focus {

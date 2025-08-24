@@ -1,11 +1,20 @@
 .pagination {
     display: flex;
+    /*border: 1px solid rgba(74, 171, 79, 0.79);*/
+    min-width: 497px;
+    /*min-height: 24px;*/
+    margin-bottom: 36px;
 }
 
 .text1 {
+    /*border: 2px solid rgb(67, 212, 232);*/
+    font-size: 14px;
+    margin: 4px 0 3px 0;
 
 }
 
 .text2 {
-
+    /*border: 2px solid rgba(100, 206, 148, 0.79);*/
+    font-size: 14px;
+    margin: 4px 0 3px 0;
 }
